@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+自定义表单验证:
+<!--<form name="f" action="/login" method="post">-->
+<form name="f" action="/login" method="post">
+    <br/>
+    用户名:
+    <input type="text" name="username" placeholder="name"><br/>
+    密码:
+    <input type="password" name="password" placeholder="password"><br/>
+    <input name="submit" type="submit" value="提交">
+</form>
+<form action="/logout" method="post">
+    <input name="submit" type="submit" value="注销">
+</form>
+</body>
+</html>
